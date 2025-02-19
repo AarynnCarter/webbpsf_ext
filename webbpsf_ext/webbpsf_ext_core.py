@@ -47,7 +47,7 @@ from .utils import check_fitsgz, webbpsf, poppy
 from webbpsf import MIRI as webbpsf_MIRI
 from webbpsf import NIRCam as webbpsf_NIRCam
 from webbpsf.opds import OTE_Linear_Model_WSS
-from webbpsf import get_stpsf_data_path as get_webbpsf_data_path
+from webbpsf.utils import get_stpsf_data_path as get_webbpsf_data_path
 # Program bar
 from tqdm.auto import trange, tqdm
 
